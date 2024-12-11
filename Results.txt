@@ -1,0 +1,21 @@
+
+Classification Report on Test Data:
+              precision    recall  f1-score   support
+
+           0       0.63      0.94      0.76     24124
+           1       0.86      0.75      0.80     21252
+           2       1.00      0.97      0.98    303765
+
+    accuracy                           0.95    349141
+   macro avg       0.83      0.89      0.85    349141
+weighted avg       0.96      0.95      0.96    349141
+
+
+Macro-F1 Score: 0.85
+Macro Precision: 0.83
+Macro Recall: 0.89
+
+Confusion Matrix on Test Data:
+[[ 22764   1274     86]
+ [  4301  16020    931]
+ [  8833   1364 293568]]
